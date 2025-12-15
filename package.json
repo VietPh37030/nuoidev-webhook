@@ -1,0 +1,12 @@
+{
+    "name": "nuoidev-webhook",
+    "version": "1.0.0",
+    "description": "SePay webhook for NuoiDev",
+    "scripts": {
+        "dev": "vercel dev",
+        "deploy": "vercel --prod"
+    },
+    "dependencies": {
+        "firebase-admin": "^12.0.0"
+    }
+}
