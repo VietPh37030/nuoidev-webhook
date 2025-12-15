@@ -56,7 +56,7 @@ module.exports = async (req, res) => {
         } = data;
 
         // Kiểm tra có mã thanh toán không
-        if (!code || !code.startsWith('NUOIDEV')) {
+        if (!code || !code.startsWith('NUOID')) {
             console.log('❌ Invalid payment code:', code);
             return res.status(200).json({
                 success: false,
